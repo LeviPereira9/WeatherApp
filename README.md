@@ -1,20 +1,10 @@
 # Simple Weather App
 
-Este é um projeto simples de acompanhamento de clima de cidades.
+Este é um projeto que permite o acompanhamento do clima de diversas cidades ao redor do mundo de maneira simples e intuitiva.
 
-Começamos com uma simples barra de pesquisa para o usuário inserir o nome da cidade que ele deseja saber o clima, caso passe nas vericações, como input preenchido, nome de cidade válida e nome de cidade não repitida, é devolvido as informações sobre aquela cidade em um card, abaixo da entrada de pesquisa.
+A interface do projeto é composta por uma barra de pesquisa onde o usuário pode inserir o nome da cidade desejada. Após passar por verificações, tais como preenchimento correto do input e validação do nome da cidade, as informações sobre o clima daquela cidade são exibidas em um card abaixo da barra de pesquisa.
 
-Cada card vai possuir as mesmas disposições de informações, tais como:
-
-- Nome da Cidade;
-- Código do País (EUA, BR, UK, etc...);
-- Temperatura em Celsius;
-- Icone e descrição do clima ;
-- Velocidade do vento;
-- Umidade;
-- Sensação térmica.
-
-Cada card também possui a opção de ser excluido.
+Cada card apresenta informações padronizadas, como o nome da cidade, o código do país, a temperatura em Celsius, o ícone e a descrição do clima, a velocidade do vento, a umidade e a sensação térmica. Além disso, cada card possui a opção de ser excluído, permitindo que o usuário personalize a lista de cidades exibidas.
 
 ## Referência
 
