@@ -38,4 +38,4 @@ Este projeto foi criado com base em um repositório de tutoriais e foi construí
 
 ![vento](./img/vento.jpg)
 ![umidade](./img/umidade.jpg)
-![sensação](./img/sensa%C3%A7%C3%A3o.jpg)
+![sensação](./img/sensacao.jpg)
