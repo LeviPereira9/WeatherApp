@@ -1,6 +1,6 @@
 # Simple Weather App
 
-Este é um projeto que permite o acompanhamento do clima de diversas cidades ao redor do mundo de maneira simples e intuitiva.
+Este é um projeto que permite o acompanhamento do clima de diversas cidades ao redor do mundo de maneira simples e intuitiva utilizando a API [OpenWeatherMap](https://openweathermap.org/).
 
 A interface do projeto é composta por uma barra de pesquisa onde o usuário pode inserir o nome da cidade desejada. Após passar por verificações, tais como preenchimento correto do input e validação do nome da cidade, as informações sobre o clima daquela cidade são exibidas em um card abaixo da barra de pesquisa.
 
