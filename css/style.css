@@ -1,0 +1,102 @@
+:root {
+  --text_light: #fff;
+  --pg: #1C1C1C;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+ 
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style: none;
+}
+body {
+  overflow-y: scroll;
+  font: 1rem/1.3 "Roboto", sans-serif;
+  background-image: linear-gradient(17deg, rgba(41, 41, 41, 0.02) 0%, rgba(41, 41, 41, 0.02) 48%,rgba(10, 10, 10, 0.02) 48%, rgba(10, 10, 10, 0.02) 59%,rgba(164, 164, 164, 0.02) 59%, rgba(164, 164, 164, 0.02) 73%,rgba(79, 79, 79, 0.02) 73%, rgba(79, 79, 79, 0.02) 93%,rgba(42, 42, 42, 0.02) 93%, rgba(42, 42, 42, 0.02) 100%),linear-gradient(42deg, rgba(124, 124, 124, 0.02) 0%, rgba(124, 124, 124, 0.02) 15%,rgba(116, 116, 116, 0.02) 15%, rgba(116, 116, 116, 0.02) 23%,rgba(41, 41, 41, 0.02) 23%, rgba(41, 41, 41, 0.02) 44%,rgba(196, 196, 196, 0.02) 44%, rgba(196, 196, 196, 0.02) 54%,rgba(145, 145, 145, 0.02) 54%, rgba(145, 145, 145, 0.02) 100%),linear-gradient(151deg, rgba(85, 85, 85, 0.02) 0%, rgba(85, 85, 85, 0.02) 12%,rgba(72, 72, 72, 0.02) 12%, rgba(72, 72, 72, 0.02) 28%,rgba(156, 156, 156, 0.02) 28%, rgba(156, 156, 156, 0.02) 33%,rgba(230, 230, 230, 0.02) 33%, rgba(230, 230, 230, 0.02) 50%,rgba(13, 13, 13, 0.02) 50%, rgba(13, 13, 13, 0.02) 100%),linear-gradient(76deg, rgba(25, 25, 25, 0.02) 0%, rgba(25, 25, 25, 0.02) 9%,rgba(183, 183, 183, 0.02) 9%, rgba(183, 183, 183, 0.02) 32%,rgba(19, 19, 19, 0.02) 32%, rgba(19, 19, 19, 0.02) 86%,rgba(129, 129, 129, 0.02) 86%, rgba(129, 129, 129, 0.02) 88%,rgba(174, 174, 174, 0.02) 88%, rgba(174, 174, 174, 0.02) 100%),linear-gradient(90deg, rgb(106,106,106),rgb(51,51,51));
+  background-attachment: fixed;
+  color: var(--text_dark);
+  padding: 50px;
+}
+
+/* Section 1 */
+.top-banner{
+    color: var(--text_light);
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 0.02em;
+}
+
+.top-banner form .form-control{
+    font-size: 2em;
+    color: var(--text_light);
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid var(--text_light);
+}
+
+.top-banner form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.top-banner form .form-control::placeholder{
+    color: var(--text_light);
+}
+
+.was-validated:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Section 2 */
+.weather_icon{
+  font-size: 5em;
+}
+
+.weather_footer_icon{
+  font-size: 1.3em;
+}
+
+.card_header{
+  background-color: var(--pg);
+  color: white;
+}
+
+.weather_close{
+  font-size: 2em;
+}
+
+.card_body{
+  background-image: radial-gradient(circle at 99% 33%, rgba(255,255,255, 0.03) 0%, rgba(255,255,255, 0.03) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 46% 16%, rgba(255,255,255, 0.03) 0%, rgba(255,255,255, 0.03) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 99% 25%, rgba(255,255,255, 0.03) 0%, rgba(255,255,255, 0.03) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 57% 88%, rgba(255,255,255, 0.03) 0%, rgba(255,255,255, 0.03) 86%,transparent 86%, transparent 100%),radial-gradient(circle at 82% 78%, rgba(255,255,255, 0.03) 0%, rgba(255,255,255, 0.03) 22%,transparent 22%, transparent 100%),linear-gradient(90deg, rgb(49,49,49),rgb(49,49,49));
+  color: white;
+}
+
+.card_footer{
+  background-color: var(--pg);
+  color: white;
+}
